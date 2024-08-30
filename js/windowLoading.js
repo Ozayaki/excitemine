@@ -3,6 +3,9 @@ let but = document.getElementById("b-list");
 let header = document.getElementsByTagName("header");
 
 function f() {
+    if (window.innerWidth < 900) {
+        document.getElementById("large").textContent = "Присоединиться";
+    }
     setTimeout(() => {
         icon.style.transform = "translateY(0)";
         but.style.transform = "translateY(0)";
