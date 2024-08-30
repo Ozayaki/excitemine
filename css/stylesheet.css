@@ -226,12 +226,32 @@ button svg {
     .items h2 {
         font-size: 150%;
     }
+
 }
 @media (max-width: 682px) {
     .hd img {
         visibility: hidden;
         position: absolute;
     }
+    .items h1 {
+        font-size: 150%;
+    }
+    .items h2 {
+        font-size: 100%;
+    }
+    .items {
+        padding-top: 20vh;
+        text-align: center;
+    }
+    .items a {
+        text-decoration: none;
+        font-weight: bolder;
+        font-size: 125%;
+        margin-top: 4vh;
+    }
+    .items a svg {
+    }
+
 }
 @media (max-width: 554px) {
     .hd, .hd ul li a, .hd ul li, .hd img  {
@@ -253,14 +273,14 @@ button svg {
     }
     header {
         text-align: right;
-        height: 100px;
+        height: 75px;
         background-color: #1d1d1d;
         z-index: 5;
     }
     .menu {
         position: static;
         visibility: visible;
-        padding-top: 25px;
+        padding-top: 15px;
         padding-right: 10px;
         transition: all 1s ease-in-out;
         z-index: 10;
