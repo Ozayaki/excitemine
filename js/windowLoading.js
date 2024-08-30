@@ -12,7 +12,7 @@ function f() {
     },150)
 }
 f();
-
+//
 window.addEventListener("scroll", function(){
     if (window.innerWidth > 554) {
         if (window.scrollY !=0) {
